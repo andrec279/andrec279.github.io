@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on [ projects ]</title>
+    <link>https://andrec279.github.io/post/</link>
+    <description>Recent content in Posts on [ projects ]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>andrec279@gmail.com (Andre Chen)</managingEditor>
+    <webMaster>andrec279@gmail.com (Andre Chen)</webMaster>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://andrec279.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>contextify</title>
+      <link>https://andrec279.github.io/post/2021-01-07-contextify/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <author>andrec279@gmail.com (Andre Chen)</author>
+      <guid>https://andrec279.github.io/post/2021-01-07-contextify/</guid>
+      <description>&lt;p&gt;Project using logistic regression to sort a Spotify user&amp;rsquo;s song library into desired playlists.&lt;br&gt;
+Plotly-dash web application coming soon!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spotify API Documentation:&lt;/strong&gt; &lt;a href=&#34;https://developer.spotify.com/documentation/web-api/&#34;&gt;https://developer.spotify.com/documentation/web-api/&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Deezer API Documentation:&lt;/strong&gt; &lt;a href=&#34;https://developers.deezer.com/api&#34;&gt;https://developers.deezer.com/api&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://andrec279.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/plfeatureaverages-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/plfeatureaverages-thumb.jpg&#34; alt=&#34;Playlist Feature Averages&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/plfeatureaverages.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Playlist Feature Averages&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/plfeaturedistribution-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/plfeaturedistribution-thumb.jpg&#34; alt=&#34;Playlist Feature Distributions&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/plfeaturedistribution.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Playlist Feature Distributions&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/LogRegPlot-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/LogRegPlot-thumb.jpg&#34; alt=&#34;LogReg Performance Evaluation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/LogRegPlot.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;LogReg Performance Evaluation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>busybee</title>
+      <link>https://andrec279.github.io/post/2020-12-01-busybee/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <author>andrec279@gmail.com (Andre Chen)</author>
+      <guid>https://andrec279.github.io/post/2020-12-01-busybee/</guid>
+      <description>&lt;p&gt;Full-stack, interactive web application to track your goals, subtasks, and completion rates in real time.
+Check it out on Google Cloud Platform:&lt;br&gt;
+&lt;strong&gt;(&lt;a href=&#34;https://busybee-264219.appspot.com/&#34;&gt;https://busybee-264219.appspot.com/&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For best results, login with these credentials:&lt;br&gt;
+&lt;strong&gt;username:&lt;/strong&gt; test1       &lt;strong&gt;password:&lt;/strong&gt; test&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://andrec279.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/busybeescreen-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/busybeescreen-thumb.jpg&#34; alt=&#34;Task Planning&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/busybeescreen.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Task Planning&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/busybeecharts-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/busybeecharts-thumb.jpg&#34; alt=&#34;Goal Breakdowns&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/busybeecharts.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Goal Breakdowns&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://andrec279.github.io/img/TaskCompletionOverTime-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://andrec279.github.io/img/TaskCompletionOverTime-thumb.jpg&#34; alt=&#34;Task Completion Tracking&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://andrec279.github.io/img/TaskCompletionOverTime.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Task Completion Tracking&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>NFL Offensive Lineman Analysis</title>
+      <link>https://andrec279.github.io/post/2020-07-23-nflhackathon/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <author>andrec279@gmail.com (Andre Chen)</author>
+      <guid>https://andrec279.github.io/post/2020-07-23-nflhackathon/</guid>
+      <description>&lt;p&gt;Use case development and prototyping of a solution using NFL&amp;rsquo;s NextGen player tracking data to generate valuable scouting and coaching insights for NFL teams.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

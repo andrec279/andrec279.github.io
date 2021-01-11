@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on [ projects ]</title>
+    <link>https://andrec279.github.io/page/</link>
+    <description>Recent content in Pages on [ projects ]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>andrec279@gmail.com (Andre Chen)</managingEditor>
+    <webMaster>andrec279@gmail.com (Andre Chen)</webMaster><atom:link href="https://andrec279.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://andrec279.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>andrec279@gmail.com (Andre Chen)</author>
+      <guid>https://andrec279.github.io/page/about/</guid>
+      <description>Hi! My name is Andre. I&amp;rsquo;m a technology consultant based out of Arlington, Virginia with a dream of becoming a full-time data scientist. I get my inspiration from the incredible ways data is used to power our lives today, from smart devices to recommendation engines and autonomous vehicles. My goal each day is to become a slightly better programmer, statistician, and leader.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>NFL Offensive Lineman Analysis - [ projects ]</title>
+  <meta name="description" content="NFL Team Hackathon Submission">
+  <meta name="author" content="Andre Chen"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "[ projects ]",
+    
+    "url": "https:\/\/andrec279.github.io"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/andrec279.github.io"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/andrec279.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/andrec279.github.io\/post\/2020-07-23-nflhackathon\/",
+          "name": "N f l offensive lineman analysis"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Andre Chen"
+  },
+  "headline": "NFL Offensive Lineman Analysis",
+  "description" : "Use case development and prototyping of a solution using NFL\u0026rsquo;s NextGen player tracking data to generate valuable scouting and coaching insights for NFL teams.\n",
+  "inLanguage" : "en",
+  "wordCount":  811 ,
+  "datePublished" : "2020-07-23T00:00:00",
+  "dateModified" : "2020-07-23T00:00:00",
+  "image" : "https:\/\/andrec279.github.io\/img\/homelogo.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/andrec279.github.io\/post\/2020-07-23-nflhackathon\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/andrec279.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/andrec279.github.io\/img\/homelogo.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="NFL Offensive Lineman Analysis" />
+<meta property="og:description" content="NFL Team Hackathon Submission">
+<meta property="og:image" content="https://andrec279.github.io/img/homelogo.png" />
+<meta property="og:url" content="https://andrec279.github.io/post/2020-07-23-nflhackathon/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="[ projects ]" />
+
+  <meta name="twitter:title" content="NFL Offensive Lineman Analysis" />
+  <meta name="twitter:description" content="NFL Team Hackathon Submission">
+  <meta name="twitter:image" content="https://andrec279.github.io/img/homelogo.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='https://andrec279.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.80.0" />
+  <link rel="alternate" href="https://andrec279.github.io/index.xml" type="application/rss+xml" title="[ projects ]"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://andrec279.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://andrec279.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://andrec279.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://andrec279.github.io">[ projects ]</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="https://andrec279.github.io/">Home</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="https://andrec279.github.io/page/about/">About</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="[ projects ]" href="https://andrec279.github.io">
+            <img class="avatar-img" src="https://andrec279.github.io/img/homelogo.png" alt="[ projects ]" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>NFL Offensive Lineman Analysis</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">NFL Team Hackathon Submission</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on July 23, 2020
+  
+  
+  
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Use case development and prototyping of a solution using NFL&rsquo;s NextGen player tracking data to generate valuable scouting and coaching insights for NFL teams.</p>
+<h2 id="description">Description</h2>
+<p><strong>Note:</strong> This was a team hackathon submission.</p>
+<p>Compared to quarterbacks or wide receivers, the specific traits that mark top-rated offensive linemen in the NFL are not as well-quantified.
+Using NFL&rsquo;s NextGen dataset, which features in-game positional (xyz) data in 0.1s increments, our hackathon team aimed to quantify
+the relative importance of these traits to offensive lineman performance across the NFL, allowing coaches and scouts to adopt a more
+rigorous approach in filling their o-line. This analysis consisted of four main components:</p>
+<ol>
+<li>Create ETL and cleaning process on massive, denormalized NFL NextGen dataset stored in AWS S3 to obtain data in usable form.</li>
+<li>Develop offensive lineman rating based on how often their mark was able to beat them and apply pressure to the QB.</li>
+<li>Calculate key performance indicators such as acceleration off-snap, contact angle with defenders, velocity after contact, etc.</li>
+<li>Standardize features and fit to a linear regression model to predict o-lineman rating. After achieving desired accuracy, rank
+feature weights by absolute value to determine the most important predictors of offensive lineman rating.</li>
+</ol>
+<h2 id="my-contribution">My Contribution</h2>
+<p>For this project, I independently developed the first and second components outlined above. To create our offensive lineman rating,
+I wrote an algorithm to segment tracking data into individual plays and search for instances where a defender was able to beat a
+particular o-lineman and apply pressure to the quarterback.</p>
+<p>Code featured on my <a href="https://github.com/andrec279/nfl-data-hackathon">Github repo</a> only contains code which I independently wrote and
+contributed, as well as data samples to illustrate the inputs and outputs of the ETL process I created.</p>
+<p>Sample code for the algorithm I wrote to capture offensive lineman rating is posted below:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python">    <span class="c1"># Iterate through plays in context_df and extract block win rate for each offensive lineman</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">play</span> <span class="ow">in</span> <span class="n">context_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">o_play</span> <span class="o">=</span> <span class="n">offense_df</span><span class="p">[</span><span class="n">offense_df</span><span class="p">[</span><span class="s1">&#39;ballsnaptime&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">play</span><span class="p">[</span><span class="s1">&#39;ballsnaptime&#39;</span><span class="p">]]</span>
+        <span class="n">d_play</span> <span class="o">=</span> <span class="n">defense_df</span><span class="p">[</span><span class="n">defense_df</span><span class="p">[</span><span class="s1">&#39;ballsnaptime&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">play</span><span class="p">[</span><span class="s1">&#39;ballsnaptime&#39;</span><span class="p">]]</span>
+
+        <span class="c1"># Only first 2.5 seconds of play are relevant for our analysis. Note 2.5 seconds = 25 increments of time</span>
+        <span class="n">timesteps</span> <span class="o">=</span> <span class="n">o_play</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span>
+        <span class="n">timesteps</span> <span class="o">=</span> <span class="n">timesteps</span><span class="p">[:</span><span class="mi">25</span><span class="p">]</span>
+            
+        <span class="n">o_play</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;x&#39;</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">10</span>
+        <span class="n">d_play</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;x&#39;</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">10</span>
+        
+        <span class="c1"># Get starting position of QB and Center to orient the game correctly</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">start_center_pos</span> <span class="o">=</span> <span class="n">o_play</span><span class="p">[(</span><span class="n">o_play</span><span class="p">[</span><span class="s1">&#39;position&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;C&#39;</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">o_play</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">timesteps</span><span class="p">[</span><span class="mi">0</span><span class="p">])][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">start_qb_pos</span> <span class="o">=</span> <span class="n">o_play</span><span class="p">[(</span><span class="n">o_play</span><span class="p">[</span><span class="s1">&#39;position&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;QB&#39;</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">o_play</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">timesteps</span><span class="p">[</span><span class="mi">0</span><span class="p">])][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">continue</span>
+        
+        <span class="c1"># Determine direction of offensive play</span>
+        <span class="k">if</span> <span class="n">start_center_pos</span> <span class="o">&gt;</span> <span class="n">start_qb_pos</span><span class="p">:</span>
+            <span class="n">left_to_right</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">left_to_right</span> <span class="o">=</span> <span class="bp">False</span>
+        
+        <span class="c1"># Determine absolute x of LOS</span>
+        <span class="k">if</span> <span class="n">start_center_pos</span> <span class="o">&lt;</span> <span class="mi">50</span><span class="p">:</span>
+            <span class="n">los_x</span> <span class="o">=</span> <span class="n">play</span><span class="p">[</span><span class="s1">&#39;los&#39;</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">los_x</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">-</span> <span class="n">play</span><span class="p">[</span><span class="s1">&#39;los&#39;</span><span class="p">]</span>
+
+        <span class="c1"># Initialize passrushers list: define as defenders that have crossed the line of scrimmage by the end of obs. window</span>
+        <span class="n">passrushers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">d_play</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+            <span class="c1"># Define &#39;crossing LOS&#39; depending on which direction the offense is going</span>
+            <span class="k">if</span> <span class="n">left_to_right</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+                <span class="n">crossed_los</span> <span class="o">=</span> <span class="p">(</span><span class="n">player</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">los_x</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">crossed_los</span> <span class="o">=</span> <span class="p">(</span><span class="n">player</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">los_x</span><span class="p">)</span>
+            
+            <span class="k">if</span> <span class="n">crossed_los</span> <span class="ow">and</span> <span class="n">player</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">passrushers</span><span class="p">:</span>
+                <span class="n">passrushers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">player</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">])</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">passrushers</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Faulty passrushers encountered&#39;</span><span class="p">)</span>
+            <span class="k">continue</span>
+                
+        <span class="c1"># Initialize assignments df - get all players except for QB</span>
+        <span class="n">assignments</span> <span class="o">=</span> <span class="n">o_play</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;player&#39;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()[[</span><span class="s1">&#39;player&#39;</span><span class="p">,</span> <span class="s1">&#39;position&#39;</span><span class="p">]]</span>
+        <span class="n">assignments</span> <span class="o">=</span> <span class="n">assignments</span><span class="p">[</span><span class="n">assignments</span><span class="p">[</span><span class="s1">&#39;position&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;QB&#39;</span><span class="p">]</span>
+        <span class="n">assignments</span><span class="p">[</span><span class="s1">&#39;assignment&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;None&#39;</span>
+        
+        <span class="c1"># Dynamically assign coverage using distance and orientation wrt each pass rusher at each time step</span>
+        <span class="c1"># playerlosstracker will reflect 0 for a player if player was never beaten by his assignment</span>
+        <span class="n">playerlosstracker</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># Every time the below for loop is run, </span>
+        <span class="c1"># 1. Increment &#39;observations&#39; for each player observed by 1</span>
+        <span class="c1"># 2. Reset playerlosstracker to 0 to observe the new play</span>
+        <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">assignments</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+            <span class="n">obs_gain</span> <span class="o">=</span> <span class="n">olineplayerstats</span><span class="p">[</span><span class="n">olineplayerstats</span><span class="o">.</span><span class="n">index</span><span class="o">==</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]][</span><span class="s1">&#39;observations&#39;</span><span class="p">]</span><span class="o">+</span><span class="mi">1</span>
+            <span class="n">olineplayerstats</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">],</span> <span class="s1">&#39;observations&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">obs_gain</span>
+            <span class="n">playerlosstracker</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="mi">0</span>
+        
+        <span class="k">for</span> <span class="n">time</span> <span class="ow">in</span> <span class="n">timesteps</span><span class="p">:</span>
+            
+            <span class="c1"># Set a Boolean flag - if continue1 conditions are met, continue1 is set to True and all loops within this are exited, effectively skipping to the next time step. This is used to deal with missing data</span>
+            <span class="n">continue1</span> <span class="o">=</span> <span class="bp">False</span>
+            
+            <span class="c1"># Data to analyze in each iteration</span>
+            <span class="n">d_step</span> <span class="o">=</span> <span class="n">d_play</span><span class="p">[</span><span class="n">d_play</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">time</span><span class="p">]</span>
+            <span class="n">o_step</span> <span class="o">=</span> <span class="n">o_play</span><span class="p">[</span><span class="n">o_play</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">time</span><span class="p">]</span>
+                        
+            <span class="c1"># Get QB Position</span>
+            <span class="n">qb_xy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">o_step</span><span class="p">[</span><span class="n">o_step</span><span class="p">[</span><span class="s1">&#39;position&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;QB&#39;</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">o_step</span><span class="p">[</span><span class="n">o_step</span><span class="p">[</span><span class="s1">&#39;position&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;QB&#39;</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
+            
+            <span class="c1"># Loop through each player, get their x,y coordinates, and compare to each pass rusher</span>
+            <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">assignments</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">ol_xy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">o_step</span><span class="p">[</span><span class="n">o_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">o_step</span><span class="p">[</span><span class="n">o_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span> 
+                
+                <span class="c1"># Bad programming solution to the problem of missing data for time&#39;s sake, but using this escape flag to skip time step if data is missing for a player</span>
+                <span class="k">except</span><span class="p">:</span>
+                    <span class="n">continue1</span> <span class="o">=</span> <span class="bp">True</span>
+                    <span class="k">continue</span>
+                
+                <span class="n">distances_to_rushers</span> <span class="o">=</span> <span class="p">{}</span>
+
+                <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">passrushers</span><span class="p">:</span>
+                    <span class="n">d_xy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">d_step</span><span class="p">[</span><span class="n">d_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">d_step</span><span class="p">[</span><span class="n">d_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
+                    <span class="n">distance</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">d_xy</span><span class="o">-</span><span class="n">ol_xy</span><span class="p">)</span>
+                    <span class="n">distances_to_rushers</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">name</span><span class="p">:</span> <span class="n">distance</span><span class="p">})</span>
+                
+                <span class="n">assignment</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">distances_to_rushers</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">distances_to_rushers</span><span class="o">.</span><span class="n">get</span><span class="p">)</span>
+                <span class="n">row</span><span class="p">[</span><span class="s1">&#39;assignment&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">assignment</span>
+
+                <span class="c1"># Track coordinates of assignment specifically</span>
+                <span class="n">asn_xy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">d_step</span><span class="p">[</span><span class="n">d_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">assignment</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">d_step</span><span class="p">[</span><span class="n">d_step</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">assignment</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
+
+                <span class="c1"># Key calculation: if assignment is ever closer to QB than o-lineman and &lt; 3 yards away in 2.5 s, set Boolean win = False</span>
+                <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">asn_xy</span><span class="o">-</span><span class="n">qb_xy</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">ol_xy</span><span class="o">-</span><span class="n">qb_xy</span><span class="p">)</span> <span class="ow">and</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">asn_xy</span><span class="o">-</span><span class="n">qb_xy</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>
+                    <span class="n">playerlosstracker</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;player&#39;</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span> 
+            
+            <span class="k">if</span> <span class="n">continue1</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+                <span class="k">continue</span>
+        
+        <span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">playerlosstracker</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">playerlosstracker</span><span class="p">[</span><span class="n">player</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">win_gain</span> <span class="o">=</span> <span class="n">olineplayerstats</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">player</span><span class="p">,</span> <span class="s1">&#39;blockwins&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+                <span class="n">olineplayerstats</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="n">player</span><span class="p">,</span> <span class="s1">&#39;blockwins&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">win_gain</span>
+        <span class="n">counter</span><span class="o">+=</span><span class="mi">1</span>    
+
+    <span class="n">olineplayerstats</span><span class="p">[</span><span class="s1">&#39;winrate&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">olineplayerstats</span><span class="p">[</span><span class="s1">&#39;blockwins&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">olineplayerstats</span><span class="p">[</span><span class="s1">&#39;observations&#39;</span><span class="p">]</span>
+</code></pre></div>
+
+        
+
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+            <li class="next">
+              <a href="https://andrec279.github.io/post/2020-12-01-busybee/" data-toggle="tooltip" data-placement="top" title="busybee">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:andrec279@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/andrec279" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/andre-chen1" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/achen27" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Andre Chen
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2021
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://andrec279.github.io">[ projects ]</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.80.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://andrec279.github.io/js/main.js"></script>
+<script src="https://andrec279.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://andrec279.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
