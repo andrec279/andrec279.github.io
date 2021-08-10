@@ -255,10 +255,8 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Project using logistic regression to sort a Spotify user&rsquo;s song library into desired playlists.<br>
-Plotly-dash web application coming soon!</p>
-<p><strong>Spotify API Documentation:</strong> <a href="https://developer.spotify.com/documentation/web-api/">https://developer.spotify.com/documentation/web-api/</a><br>
-<strong>Deezer API Documentation:</strong> <a href="https://developers.deezer.com/api">https://developers.deezer.com/api</a></p>
+        <p>Interactive web application that uses logistic regression to sort any Spotify user&rsquo;s Liked library into playlists.<br>
+Flask / Plotly-Dash web application is live on AWS and available here: <a href="http://contextify.us-east-1.elasticbeanstalk.com/">http://contextify.us-east-1.elasticbeanstalk.com/</a></p>
 
 
 
@@ -340,12 +338,14 @@ with more incorrect entries). So, I am weighting precision&rsquo;s importance ov
 <li>Tune LogReg model hyperparameters using GridSearchCV and validate on testing dataset.</li>
 <li>Test model on my own Spotify library dataset. Generate predicted classes and evaluate by computing average distance within each class to the centroid within the original training dataset, then comparing to the average distance within the training set.</li>
 </ol>
-<p><strong>4 - Web Application (TODO)</strong></p>
+<p><strong>4 - Web Application</strong></p>
 <ol>
-<li>Wrap workflow in Plotly-dash module.</li>
-<li>Pass in my Spotify authentication credentials and store my song feature data.</li>
-<li>Run trained LogReg model on my song feature data and create new playlists in Spotify via Spotify API.</li>
+<li>Wrap data ingest, visualization, and modeling workflow in Plotly-dash module and serve in a Flask application.</li>
+<li>Enable Spotify OAuth authentication to allow users to pass in their song data for analysis and classification.</li>
+<li>Deploy completed web application on AWS using Elastic Beanstalk.</li>
 </ol>
+<p><strong>Spotify API Documentation:</strong> <a href="https://developer.spotify.com/documentation/web-api/">https://developer.spotify.com/documentation/web-api/</a><br>
+<strong>Deezer API Documentation:</strong> <a href="https://developers.deezer.com/api">https://developers.deezer.com/api</a></p>
 
         
 
