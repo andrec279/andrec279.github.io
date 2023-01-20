@@ -315,9 +315,9 @@
 
 <h2 id="summary">Executive Summary</h2>
 <p>Multimodal graph-based learning approaches can facilitate a better search experience at Zillow, 
-  whose data consists of listing images, descriptions, and other metadata. We aimed to use GraphSAGE, 
-  an inductive graph representation learning framework, to learn representations using CLIP-initialized 
-  node embeddings. Specifically, we trained a 2-layer GraphSAGE model using restricted fanout, mean 
+  whose data is inherently multimodal (listing images, descriptions, and tags). As such, we used GraphSAGE, 
+  an inductive graph representation learning framework, to learn improved multimodal representations using 
+  CLIP-initialized node embeddings. Specifically, we trained a 2-layer GraphSAGE model using restricted fanout, mean 
   aggregation, ReLU nonlinearity and batch normalization and experiment with three approaches for connecting 
   new, previously unseen nodes to the training graph during inference. Finally, we evaluated updated node 
   embeddings on a cosine similarity-based image-keyword link prediction task and compare their performance to 
