@@ -318,13 +318,13 @@
   whose data is inherently multimodal (listing images, descriptions, and tags). As such, we used GraphSAGE, 
   an inductive graph representation learning framework, to learn improved multimodal representations using 
   CLIP-initialized node embeddings. Specifically, we trained a 2-layer GraphSAGE model using restricted fanout, mean 
-  aggregation, ReLU nonlinearity and batch normalization and experiment with three approaches for connecting 
+  aggregation, ReLU nonlinearity and batch normalization, then experimented with three approaches for connecting 
   new, previously unseen nodes to the training graph during inference. Finally, we evaluated updated node 
-  embeddings on a cosine similarity-based image-keyword link prediction task and compare their performance to 
+  embeddings on a cosine similarity-based image-keyword link prediction task and compared their performance to 
   link prediction using embeddings initialized from a fine-tuned CLIP-ViT/32 as a baseline. We found that 
-  increasing connections to keyword labels during training improved GraphSAGE performance relative to baseline, 
-  and note that on MS-COCO, a well-known research dataset with human-generated keyword annotations, GraphSAGE 
-  generally outperformed our baseline.</p>
+  increasing connections to keyword labels during training improved GraphSAGE performance on out-of-vocabulary 
+  link prediction relative to baseline, and note that on MS-COCO, a well-known research dataset with human-generated 
+  keyword annotations, GraphSAGE generally outperformed our baseline.</p>
 <p>
   You can read our final research paper <a href="https://andrec279.github.io/img/final_report.pdf">here</a>.
 </p>
